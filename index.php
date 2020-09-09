@@ -43,12 +43,39 @@
                 </ul>
             </div>
         </nav>
-        
     </header>
+    <main>
 
-    <body>
-
-    </body>
+    <div class="container text-white">
+        <div class="row justify-content-center">
+            <div class=" col-4">
+                <form action="" class="mt-4">
+                    <div class="form-group">
+                        <label for="producto1">Producto 1</label>
+                        <input type="text" class="form-control" id=producto1>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto2">Producto 2</label>
+                        <input type="text" class="form-control" id=producto1>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto3">Producto 3</label>
+                        <input type="text" class="form-control" id=producto1>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto4">Producto 4</label>
+                        <input type="text" class="form-control" id=producto1>
+                    </div>
+                    <div class="form-group">
+                        <label for="producto5">Producto 5</label>
+                        <input type="text" class="form-control" id=producto1>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Calcular</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </main>
     <footer>
 
     </footer>

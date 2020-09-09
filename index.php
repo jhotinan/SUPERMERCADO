@@ -12,10 +12,11 @@
 
 <body class="bg-dark">
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         
         <img src="img/supermarket.png" width="50" height="50" alt="logo">
-            <a class="navbar-brand" href="index.php">Inserte el nombre de la tienda</a>
+            <a class="navbar-brand" href="index.php">MERCADITO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,31 +46,52 @@
         </nav>
     </header>
     <main>
-
     <div class="container text-white">
-        <div class="row justify-content-center">
-            <div class=" col-4">
-                <form action="" class="mt-4">
-                    <div class="form-group">
-                        <label for="producto1">Producto 1</label>
-                        <input type="text" class="form-control" id=producto1>
+        <div class="row justify-content-center mt-5">
+            <div class="col-4">
+                <form>
+                    <h3 class="text-center mb-4">Factura de su compra</h3>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Producto1">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Precio($)">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="producto2">Producto 2</label>
-                        <input type="text" class="form-control" id=producto1>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Producto2">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Precio($)">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="producto3">Producto 3</label>
-                        <input type="text" class="form-control" id=producto1>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Producto3">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Precio($)">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="producto4">Producto 4</label>
-                        <input type="text" class="form-control" id=producto1>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Producto4">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Precio($)">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="producto5">Producto 5</label>
-                        <input type="text" class="form-control" id=producto1>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Producto5">
+                        </div>
+                        <div class="col">
+                            <input type="number" class="form-control" placeholder="Precio($)">
+                        </div>
                     </div>
+                    
                     <button type="submit" class="btn btn-primary btn-block">Calcular</button>
                 </form>
             </div>

@@ -95,19 +95,24 @@
                     
                     <button type="submit" class="btn btn-primary btn-block" name="botonCalcular">Calcular</button>
                 </form>
+
+                <?php
+                    if(isset($_POST["botonCalcular"])):
+                ?>
+                <h6>
+                    <?php 
+                        $precio1=$_POST["precio1"];
+                        $producto1=$_POST["producto1"];
+
+                        echo("El producto 1 es: ".$producto1."-----($) ".$precio1); 
+                    
+                    ?>
+                </h6>
+                <?php
+                    endif
+                ?>
             </div>
         </div>
-
-        <?php
-            if(isset($_POST["botonCalcular"])):
-        ?>
-            <h3>
-                <?php echo("Estas haciendo click"); ?>
-            </h3>
-        <?php
-            endif
-        ?>
-
     </div>
 
     </main>
